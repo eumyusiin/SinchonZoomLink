@@ -30,3 +30,31 @@
   opacity:0.2;
   background: radial-gradient(black, white, white);
 }
+.morning{
+  font-size: 2cm;
+  background-color:transparent;
+  top: 8%;
+  left: 10%;
+  align-content: center;
+  position: absolute;
+  width: 80%;
+  height: 8%;
+  border:none;
+}
+.morning:hover{
+  
+  cursor:pointer;
+  opacity: 0.2;
+  background: grey;
+}
+@font-face{
+		font-family:'yangjin'; /*글꼴*/
+		src: local('yangjin'),
+			url('yangjin.eot'),
+			url('yangjin.woff') format('woff'),
+			url('yangjin.ttf') format('truetype');
+	}
+	.yangjin-font{
+		font-family: 'yangjin', sans-serif;/*웹 폰트 지정*/
+		color: black;
+	}
